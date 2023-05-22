@@ -1,0 +1,238 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+section
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: +1;
+}
+header ul
+{
+    position: relative;
+    display: flex;
+}
+header ul li
+{
+    list-style:none ;
+}
+header ul li a
+{
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+header ul li a:hover {opacity: 1}
+.content
+{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content:left;
+    align-items:center;
+}
+
+.content .textBox h2
+{
+    color: #333;
+    font-size: 4em;
+    line-height: 1em;
+    font-weight: 500;
+}
+.content .textBox h2 span
+{
+    color: #0c68b8;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.content .textBox p
+{
+    color: #333;
+}
+.content .textBox a
+{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #0c68b8;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.content .textBox a:hover {opacity: 1}
+.circle
+{
+    position:absolute;
+    left:730px;
+    bottom: -10px;
+}
+
+/* pt a 2-a pagina */
+.content .textBox .previous a
+{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #0c68b8;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    z-index: +1;
+
+}
+.content .textBox .next a
+{
+    position: relative;
+    left: 680px;
+    top: 550px;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #0c68b8;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.thumb
+{
+    position: absolute;
+    right: 0%;
+    top: 15%;
+}
+.thumb li
+{
+    list-style: none;
+    display: block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.thumb li:hover
+{
+    transform: translateX(-15px);
+}
+.thumb li img
+{
+    max-width: 160px;
+}
+.geneza
+{
+    color: #333;
+    font-size: 25px;
+    line-height: 27px;
+    font-weight: 500;
+    border: 1px solid rgb(255, 255, 255);
+    position: absolute;
+    right: 5%;
+    top: 15%;
+    padding: 10px;
+    width: 600px;
+    height: 550px;
+    text-align: justify;
+    z-index: -1;
+    
+}
+.picture
+{
+    position: relative;
+    height: 800px;
+    width: 800px;
+    left: -200px;
+    top: -110px;
+}
+/*despre*/
+.about
+{
+    color: #333;
+    font-size: 1.6em;
+    line-height: 1,2em;
+    font-weight: 500;
+}
+.about a
+{
+    position: relative;
+    display: inline-block;
+    color: #0c68b8;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.about a:hover {opacity: 1}
+/*pagina 3*/
+#demo1
+{
+    position: relative;
+    color: #333;
+    font-size: 25px;
+    line-height: 27px;
+    font-weight: 500;
+    left: 5%;
+    top: 100px;
+    padding: 10px;
+    width: 1000px;
+    height: 650px;
+    text-align: justify;
+}
+h1
+{
+    color: #0c68b8;
+}
+.picture1
+{
+    position: relative;
+    z-index: -1;
+    width: 1110px;
+    height: 170px;
+    bottom: 0%;
+    
+}
+/*bibliografie*/
+.bibliografie h1
+{
+    color: #0c68b8;
+}
